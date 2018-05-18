@@ -1,0 +1,35 @@
+.logoimage{
+    width: 100%;
+    position: relative;
+}
+
+
+h1{
+    text-shadow:5px 5px 5px #17ddeb;
+    font-size: 30pt;
+    position: relative;
+    width: 100;
+    
+    }
+
+h2{
+    color: #ff0000;
+}
+
+/* html,body{
+    height: 100%;
+} */
+
+ /* #bgimage{
+    background-image: url("assets/images/bg7light_blue.jpg");
+
+}  */
+
+/* #bgimage{
+    background: url('../assets/images/bg7light_blue.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}  */

@@ -1,0 +1,50 @@
+<body>
+    <div align="center">
+     <form action="AdminsController?action=registerUser" method="post">
+         <h3>Enter Details Of New User</h3>
+   
+           
+           <fieldset>
+           <table border="1">  
+            <tr><td> <label>Name: <sup> * </sup></label></td>
+             <td><input type="text" id="name" name="name" required></td>
+           </tr>
+         
+           <tr><td> <label for="name">Username: <sup> * </sup></label></td>
+             <td><input type="text" id="address" name="address" required></td>
+ </tr>
+         <tr><td><label size="20" >Password: <sup> * </sup></label></td>
+             <td><input type="password" name="txtpass" id="pass" SIZE="20" tabindex="2" placeholder="Enter your password" maxlength="20" required /></td>
+         </tr>
+         
+            <tr><td> <label size="20" >Re-type Password: <sup> * </sup></label></td>
+            <td> <input type="password" name="txtrepass" id="repass" SIZE="20" tabindex="2" placeholder="Retype your password"  maxlength="20" onchange="check()" required /></td>
+            </tr>
+         
+         
+           <tr><td> <label for="mobile">Mobile Number:</label></td>
+             <td><input type="text" name="mobile" id="mobile" required maxlength="10" > </td>
+             </tr>
+         
+             
+             <tr><td><label for="mail">Email: <sup> * </sup></label></td>
+             <td><input type="email" id="mail" name="userEmail" title="Match this format:abc@gmail.com " max="10" required></td>
+             </tr>
+             
+             <tr><td><label>Gender: <sup> * </sup></label></td>
+             <td><select name="gender" id="gender">
+                 <option selected>Male</option>
+                 <option>Female</option>
+               </select></td></tr>
+             </table>
+           <tr> <h4>All fields marked as <sup>*</sup> are mandatory. </h4></tr>
+            
+           
+   
+           <tr><button type="submit">Register</button></tr>
+         
+       </fieldset>
+         </form>
+         </div>
+         
+   </body>
